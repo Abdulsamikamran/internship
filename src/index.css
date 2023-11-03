@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .products-parent .slick-prev:before,
+.products-parent .slick-next:before {
+  color: rgb(0, 0, 0) ;
+ background-color: blue;
+} */
+.products-parent .slick-slider button {
+  margin-top: -35px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(234, 44, 75);
+}
+
+/* the slides */
+
+/* .products-parent .slick-slider .slick-list .slick-track .slick-slide div{
+    padding-left: 6px;
+    padding-right: 6px;
+  } */
+
+.slick-slider .slick-list .slick-track .slick-slide div {
+  /* padding-left: 6px;
+  
+  padding-right: 6px; */
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.product .slick-slider .slick-prev {
+  top: 35% !important;
+}
+
+.product .slick-slider .slick-next {
+  top: 35% !important;
+}
+.sliders {
+  background-color: rgb(226, 228, 229);
+  width: 100%;
+  height: 5px;
+}
+.sliders .thumb {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background-color: rgb(179, 22, 48);
+  border-radius: 50%;
+  border: none;
+  margin-top: -4px;
+}
+
+.sliders .tracks .track-1 {
+  background-color: red;
+  top: 30px;
+}
+
+/* .container {
+  max-width: 1400px !important;
+} */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e2e8f0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9d174d;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+.draww {
+  box-shadow: 0 4px 1px -4px gray;
+}
+
+.draw2 {
+  box-shadow: 0px 0px 400px 30px grey;
+}
+input[type="radio"] {
+  accent-color: rgb(179, 22, 48);
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  padding-left: 10px;
+  cursor: pointer;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* .dropdown-content div {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+} */
+
+.dropdown-content div:hover {
+  color: #be185d;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
